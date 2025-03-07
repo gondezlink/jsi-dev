@@ -18,7 +18,7 @@
     <canvas id="pdfCanvas"></canvas>
     
     <script>
-        const pdfUrl = 'sample.pdf'; // Ganti dengan URL file PDF Anda
+        const pdfUrl = 'profile.pdf'; // Ganti dengan URL file PDF Anda
         
         pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
             pdf.getPage(1).then(page => {
